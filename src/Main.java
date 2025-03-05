@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         double heightInMeters = 1.87; // рост человека
         double weightInKilograms = 98.0; // вес человека
-        double bodyMassIndex = service.calculate(heightInMeters, weightInKilograms);
+        int bodyMassIndex = service.calculate(heightInMeters, weightInKilograms);
         System.out.println("Индекс массы тела равен " + bodyMassIndex);
     }
 }
